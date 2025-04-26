@@ -1,0 +1,19 @@
+public abstract class Proprietate {
+   protected String strada;
+   protected int numar;
+   protected int suprafata;
+   
+   public Proprietate(String strada, int numar, int suprafata) {
+	   this.strada = strada;
+	   this.numar = numar;
+	   this.suprafata = suprafata;
+   }
+    
+   public abstract  double calculeazăCost();
+   
+   
+   public abstract void afiseaza();
+   
+
+}
+   
