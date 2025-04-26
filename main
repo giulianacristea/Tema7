@@ -1,0 +1,23 @@
+public class main {
+   public static void main(String[] args) {
+	   
+	   Contribuabil ion = new Contribuabil("Ion Popescu", "1234567890123");
+	      
+	   
+	   Cladire cladire1 = new Cladire("V Parvan", 2, 20);
+	   ion.adaugaProprietate(cladire1);
+
+	     
+	   
+	   Teren teren1 = new Teren ("V Parvan", 2, 10, 1);
+	   ion.adaugaProprietate(cladire1);
+	   
+	   
+	   Cladire cladire2 = new Cladire("Lugoj", 4, 25);
+	   ion.adaugaProprietate(cladire2);
+	   
+	   
+	   ion.afiseazaFluturas();
+	   
+   }
+}
