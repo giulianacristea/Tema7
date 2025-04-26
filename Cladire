@@ -1,0 +1,20 @@
+public class Cladire extends Proprietate {
+   public Cladire(String strada,int numar, int suprafata) {
+	   super(strada, numar, suprafata);
+	   
+  }
+
+
+ public double calculeazaCost() {
+    return 500 * suprafata;
+ }
+ 
+  
+ public void afisează() {
+	System.out.println("Cladire: Strada " + strada + " Nr, " + numar);
+	System.out.println("Suprafata: " + suprafata);
+	System.out.println("Cost: " + calculeazaCost());
+	
+	
+   }
+}
